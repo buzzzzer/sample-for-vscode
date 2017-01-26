@@ -1,0 +1,39 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.encoding": "utf8",
+    "editor.tabSize": 4,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "mssql.connections": [
+        {
+            "server": "localhost",
+            "database": "dwh",
+            "user": "sa",
+            "password": "123"
+        }
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "bin/": true,
+        "Fonts/": true,
+        "node_modules/": true,
+        "prg*/**": true,
+        "PRG*/**": true,
+        "reg_driver/": true,
+        "rpt/": true,
+        "rptjs/": true,
+        "icons/": true,
+        "*.exe": true,
+        "*.dll": true,
+        "*.CFG": true,
+        "*.HDR": true,
+        "*.CMD": true,
+        "*_ini": true,
+        "*.ini": true,
+        "*.INI": true,
+        "*.xml": true,
+        "*.cmd": true
+    }
+}
